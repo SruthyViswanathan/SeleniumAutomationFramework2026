@@ -1,0 +1,89 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Logs
+*.log
+logs/
+
+# Test Reports
+test-output/
+allure-results/
+allure-report/
+extent-report/
+extent-reports/
+reports/
+cucumber-reports/
+cucumber-html-reports/
+screenshots/
+videos/
+
+# Surefire & Failsafe Reports
+surefire-reports/
+failsafe-reports/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/
+nbbuild/
+dist/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Environment Variables
+.env
+.env.*
+
+# Selenium WebDriver binaries (if stored locally)
+drivers/
+*.exe
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Generated files
+*.pid
+
+# Coverage reports
+coverage/
+jacoco.exec
+/site/
+
+# Dependency cache
+.mvn/wrapper/maven-wrapper.jar
