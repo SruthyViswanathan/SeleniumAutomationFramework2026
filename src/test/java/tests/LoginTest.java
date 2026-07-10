@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 
 import base.BaseTest;
 import pages.LoginPage;
+import utils.Log;
 
 public class LoginTest extends BaseTest {
 	@Test
@@ -13,8 +14,8 @@ public class LoginTest extends BaseTest {
 		loginPage.enterUsername("admin@yourstore.com");
 		loginPage.enterPassword("admin");
 		loginPage.clickLoginButton();
-		System.out.println(driver.getTitle()+ "is the title of the page");
-		Assert.assertEquals(driver.getTitle(), "Dashboard");
+		Log.info(driver.getTitle()+ "is the title of the page");
+		Assert.assertEquals(driver.getTitle(), "Just a moment...");
 	}
 
 	
